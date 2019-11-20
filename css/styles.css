@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  transition: all 0.5s ease;
+  background-color: #f4e4da;
+
+
+}
+header {
+  background-image: url("asian-food.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  letter-spacing: 5px;
+  font-family: 'Yeon Sung', cursive;
+}
+.intro-text{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  text-align: right;
+}
+.intro-text h1{
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.intro-text p{
+  color: white;
+  padding: 5px;
+}
+#page2 {
+  height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+  background-image: url("about.jpg");
+  opacity: 0.9;
+  background-size: cover;
+  font-family: 'Yeon Sung', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about {
+  width: 50%;
+  background-color: RGB(244, 123, 49, 0.8);
+  padding: 30px;
+}
+.about h1{
+  font-size: 45px;
+  color: black;
+}
+.break {
+  height: 100px;
+  background-color: #f4e4da;
+}
+
+.page3 {
+  height: 100vh;
+  background-image: url("temple.jpg");
+  width: 90%;
+  margin: 0 auto;
+  opacity: 0.8;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Yeon Sung', cursive;
+}
+
+nav {
+overflow: hidden;
+  z-index: 1;
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around !important;
+  align-items: center !important;
+  min-height: 10vh;
+  background-color: #F47B31;
+  font-family: 'Yeon Sung', cursive;
+  opacity: 0.8;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    float: left;
+    z-index: 1;
+}
+.nav-links  {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+
+}
+.nav-links li{
+  list-style: none;
+  align-items: center;
+}
+.nav-links a{
+  color: black;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  align-items: center !important;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+.east-asia h1{
+  color: black;
+}
+
+.btn{
+  background-color: RGB(244, 123, 49);
+}
+.btn:hover{
+  background-color: white;
+  color: RGB(244, 123, 49);
+}
+
+.btn-floating {
+  color: RGB(244, 123, 49) !important;
+}
+
+.fa {
+  height: 1rem;
+  width: 40px;
+}
