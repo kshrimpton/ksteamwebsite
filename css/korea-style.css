@@ -16,8 +16,8 @@ nav {
   top: 10px;
   width: 100%;
   display: flex;
-  justify-content: space-around !important;
-  align-items: center !important;
+  justify-content: space-around;
+  align-items: center;
   min-height: 10vh;
   background-color: #F47B31;
   font-family: 'Yeon Sung', cursive;
@@ -46,7 +46,7 @@ nav {
   font-weight: bold;
   font-size: 16px;
   display: flex;
-  align-items: center !important;
+  align-items: center;
 }
 .jumbotron{
   background-image: url("seoul-pic.jpg");
@@ -64,17 +64,18 @@ nav {
   display: flex;
   justify-content: center;
   font-family: 'Yeon Sung', cursive;
-  font-size: 50px;
+  font-size: 60px;
   letter-spacing: 5px;
   color: white;
 }
 
-section{
+.content {
   background-color: white;
-  position: absolute;
-  top: 400px;
+  position: relative;
+  top: -150px;
   width: 80%;
   left: 10%;
+  bottom: 200px;
 }
 .korea-intro p{
   font-family:'Yeon Sung', cursive;
@@ -128,12 +129,16 @@ section{
     font-family:'Yeon Sung', cursive;
     margin: 0 40px 20px 0;
 }
+footer{
+  height: 50px;
+  margin-top: -150px;
 
-
-
-
+}
 .btn-floating {
-  color: RGB(244, 123, 49) !important;
+  color: RGB(244, 123, 49);
+}
+.btn-floating:hover{
+  color: black;
 }
 .fa {
   height: 1rem;

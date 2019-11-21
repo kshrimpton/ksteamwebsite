@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  transition: all 0.5s ease;
+  background-color: #f4e4da;
+}
+
+nav {
+  overflow: hidden;
+  z-index: 1;
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: #F47B31;
+  font-family: 'Yeon Sung', cursive;
+  opacity: 0.8;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    float: left;
+    z-index: 1;
+}
+.nav-links  {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.nav-links li{
+  list-style: none;
+  align-items: center;
+}
+.nav-links a{
+  color: black;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.jumbotron{
+  background-image: url("japan.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  height: 90vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+
+}
+.jumbotron h1{
+  display: flex;
+  justify-content: center;
+  font-family: 'Yeon Sung', cursive;
+  font-size: 60px;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.content {
+  background-color: white;
+  position: relative;
+  top: -150px;
+  width: 80%;
+  left: 10%;
+  bottom: 200px;
+}
+.intro p{
+  font-family:'Yeon Sung', cursive;
+  text-align: center;
+  padding: 30px;
+  font-size: 18px;
+}
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+.col-sm-6 img{
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  width: 70%;
+  height: 70%;
+  min-width:100%;
+  min-height: 100%;
+}
+.col-sm-6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-sm-6 h1{
+  font-size: 28px;
+  color: #F47B31;
+  font-style: bold;
+}
+.dish1 {
+  text-align: left;
+  font-family:'Yeon Sung', cursive;
+  margin: 0 40px 20px 40px;
+}
+.dish2 {
+    padding: 0 0 0 40px;
+    text-align: right;
+    font-family:'Yeon Sung', cursive;
+    margin: 0 40px 20px 0;
+  }
+.dish3 {
+  text-align: left;
+  font-family:'Yeon Sung', cursive;
+  margin: 0 40px 20px 40px;
+}
+.dish4 {
+    padding: 0 0 0 40px;
+    text-align: right;
+    font-family:'Yeon Sung', cursive;
+    margin: 0 40px 20px 0;
+}
+footer{
+  height: 50px;
+  margin-top: -150px;
+
+}
+.btn-floating {
+  color: RGB(244, 123, 49);
+}
+.btn-floating:hover{
+  color: black;
+}
+.fa {
+  height: 1rem;
+  width: 40px;
+}
