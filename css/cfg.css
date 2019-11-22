@@ -48,6 +48,9 @@ overflow: hidden;
   display: flex;
   align-items: center;
 }
+.nav-links a:hover{
+  color: white;
+}
 header {
   background-image: url("table.jpg");
   background-position: center;
@@ -66,6 +69,10 @@ header {
   left: 25%;
   padding: 10px;
 }
+
+
+
+
 
 .btn-floating {
   color: RGB(244, 123, 49);

@@ -48,6 +48,9 @@ nav {
   display: flex;
   align-items: center;
 }
+.nav-links a:hover{
+  color: white;
+}
 .jumbotron{
   background-image: url("china.jpg");
   background-size: cover;
@@ -129,6 +132,29 @@ nav {
     font-family:'Yeon Sung', cursive;
     margin: 0 40px 20px 0;
 }
+.visit{
+  height: 120px;
+  text-align: center;
+  font-family:'Yeon Sung', cursive;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  bottom: 20px;
+  color: #F47B31;
+}
+.carousel {
+  width:640px;
+  height:360px;
+  position: relative;
+  left: 18%;
+  bottom: 30px;
+}
+.carousel-inner{
+  width:640px;
+  height:360px;
+}
+
+
 footer{
   height: 50px;
   margin-top: -150px;
