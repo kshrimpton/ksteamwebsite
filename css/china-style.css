@@ -8,7 +8,6 @@ body {
   transition: all 0.5s ease;
   background-color: #f4e4da;
 }
-
 nav {
   overflow: hidden;
   z-index: 1;
@@ -61,7 +60,6 @@ nav {
   margin: 0 auto;
   display: flex;
   align-items: center;
-
 }
 .jumbotron h1{
   display: flex;
@@ -71,7 +69,6 @@ nav {
   letter-spacing: 5px;
   color: white;
 }
-
 .content {
   background-color: white;
   position: relative;
@@ -90,7 +87,6 @@ nav {
   display: flex;
   justify-content: center;
 }
-
 .col-sm-6 img{
   display: flex;
   align-items: center;
@@ -123,7 +119,7 @@ nav {
     text-align: right;
     font-family:'Yeon Sung', cursive;
     margin: 0 40px 20px 0;
-  }
+}
 .dish3 {
   text-align: left;
   font-family:'Yeon Sung', cursive;
@@ -156,12 +152,9 @@ nav {
   width:600px;
   height:320px;
 }
-
-
 footer{
   height: 50px;
   margin-top: -150px;
-
 }
 .btn-floating {
   color: RGB(244, 123, 49);
@@ -174,6 +167,9 @@ footer{
   width: 40px;
 }
 @media (max-width: 768px){
+  .container h1{
+    font-size: 36px;
+  }
   .intro p{
     font-size: 16px;
   }
@@ -195,6 +191,6 @@ footer{
     font-size: 12px;
   }
   .visit h1{
-    font-size: 14px;
+    font-size: 24px;
   }
 }

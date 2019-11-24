@@ -33,7 +33,6 @@ overflow: hidden;
   display: flex;
   justify-content: space-around;
   width: 30%;
-
 }
 .nav-links li{
   list-style: none;
@@ -81,11 +80,12 @@ header {
 }
 @media (max-width: 768px){
   .nav-links a{
-    margin: 0 10px 0 10px;
+    margin: 0 5px 0 5px;
+    font-size: 12px;
   }
   .word {
     font-size: 16px;
-    width: 450px;
+    width: 80%;
     top: 20%;
     position: relative;
     left: 10%;
