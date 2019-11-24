@@ -110,6 +110,9 @@ nav {
   color: #F47B31;
   font-style: bold;
 }
+.col-sm-6 p{
+  font-size: 17px;
+}
 .dish1 {
   text-align: left;
   font-family:'Yeon Sung', cursive;
@@ -143,15 +146,15 @@ nav {
   color: #F47B31;
 }
 .carousel {
-  width:640px;
-  height:360px;
+  width:600px;
+  height:320px;
   position: relative;
-  left: 18%;
+  left: 20%;
   bottom: 30px;
 }
 .carousel-inner{
-  width:640px;
-  height:360px;
+  width:600px;
+  height:320px;
 }
 footer{
   height: 50px;
@@ -167,4 +170,23 @@ footer{
 .fa {
   height: 1rem;
   width: 40px;
+}
+@media (max-width: 768px){
+  .intro p{
+    font-size: 16px;
+  }
+  .carousel {
+    width: 350px;
+    height: 200px;
+    position: relative;
+    left: 11%;
+    bottom: 30px;
+  }
+  .carousel-inner{
+    width: 350px;
+    height: 200px;
+  }
+  .nav-links a{
+    margin: 0 10px 0 10px;
+  }
 }

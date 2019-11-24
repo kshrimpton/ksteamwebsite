@@ -92,8 +92,8 @@ overflow: hidden;
   top: 10px;
   width: 100%;
   display: flex;
-  justify-content: space-around !important;
-  align-items: center !important;
+  justify-content: space-around;
+  align-items: center;
   min-height: 10vh;
   background-color: #F47B31;
   font-family: 'Yeon Sung', cursive;
@@ -141,10 +141,12 @@ overflow: hidden;
 
 .btn{
   background-color: RGB(244, 123, 49);
+  border-color: white;
 }
 .btn:hover{
   background-color: white;
   color: RGB(244, 123, 49);
+  border-color: white;
 }
 
 .btn-floating {
@@ -156,4 +158,29 @@ overflow: hidden;
 .fa {
   height: 1rem;
   width: 40px;
+}
+
+
+@media (max-width: 768px) {
+  .intro-text h1{
+    font-size: 30px;
+  }
+  .intro-text p{
+    font-size: 16px;
+  }
+  .about{
+    font-size: 16px;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+  }
+  .about h1{
+    font-size: 30px;
+  }
+  .east-asia h1{
+    font-size: 30px;
+  }
+  .nav-links a{
+    margin: 0 10px 0 10px;
+  }
 }
