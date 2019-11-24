@@ -176,15 +176,17 @@ footer{
     font-size: 16px;
   }
   .carousel {
-    width: 350px;
+    width: 80%;
     height: 200px;
     position: relative;
-    left: 11%;
+    left: 10%;
     bottom: 30px;
   }
   .carousel-inner{
-    width: 350px;
+    width: 100%;
     height: 200px;
+    display: flex;
+    justify-content: center;
   }
   .nav-links a{
     margin: 0 10px 0 10px;
