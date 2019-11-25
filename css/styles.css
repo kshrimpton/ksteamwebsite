@@ -161,7 +161,8 @@ overflow: hidden;
     font-size: 16px;
   }
   .about{
-    font-size: 16px;
+    font-size: 4vh;
+    font-size: 3vw;
     width: 80%;
     height: 80%;
     padding: 10px;
@@ -173,7 +174,7 @@ overflow: hidden;
     font-size: 30px;
   }
   .nav-links a{
-    margin: 0 5px 0 5px;
+    margin: 0 5px 0 0;
     font-size: 12px;
   }
 }
